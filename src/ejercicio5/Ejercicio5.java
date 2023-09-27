@@ -42,7 +42,7 @@ public class Ejercicio5 {
 		x = sc.nextInt();
 		
 		// calculamos y
-		y = a * Math.pow(x, 2) + b * x + c;
+		y = (a * Math.pow(x, 2)) + (b * x) + c;
 		
 		// mostramos el resultado al usuario
 		System.out.println("y = " + y);
