@@ -14,8 +14,6 @@ public class Ejercicio6 {
 		int restoSegundos = 0;
 		// variable en la que se guarda el resto de los minutos de la hora
 		int restoMinutos;
-		// variable en la que se guardarán los segundos
-		int segundos;
 		//variable en la que se guardarán los minutos
 		int minutos;
 		// variable en la que se guardará en horas
