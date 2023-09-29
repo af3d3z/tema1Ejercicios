@@ -1,5 +1,6 @@
 package ejercicio1;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Ejercicio1 {
@@ -10,6 +11,8 @@ public class Ejercicio1 {
 		double numeroMitad;
 		// definimos el objeto scanner para la entrada de datos
 		Scanner sc = new Scanner(System.in);
+		// cambiamos la local del scanner para permitir puntos en los números
+		sc.useLocale(Locale.US);
 		// variable donde se guardará el número entero redondeado
 		double numeroRedondeado;
 		
